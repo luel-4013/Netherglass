@@ -1,0 +1,38 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Node / frontend
+node_modules/
+web/dist/
+.vite/
+*.tsbuildinfo
+
+# Local data directories (never commit runtime data, keys or evidence)
+data/
+keys/
+evidence/
+logs/
+captures/
+testing_scope.json
+*.db
+*.db-wal
+*.db-shm
+*.ngv
+BOOTSTRAP_CREDENTIALS.txt
+
+# Captures / secrets / env
+*.pcap
+*.pcapng
+.env
+*.log
+
+# OS noise
+.DS_Store
+Thumbs.db
